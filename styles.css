@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.header {
+    background-color: #8B0000; /* Cor escura para destaque */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+.serie {
+    display: flex;
+    align-items: center; /* Centraliza os itens verticalmente */
+    min-height: 200px; /* Mantém todas as séries com a mesma altura */
+}
+
+.serie img {
+    width: 150px;
+    height:190px;
+    object-fit: cover; /* Cobre o espaço sem deformar, mas pode cortar */
+}
+
+
+
+
+
+
+.serie .descricao {
+    flex: 1; /* Faz com que o texto ocupe o espaço restante */
+    padding-left: 15px;
+}
+
+
+
+.serie h2 {
+    margin-top: 0; /* Evita espaçamento extra acima do título */
+}
+
+
+
+.serie:nth-of-type(1) { background-color: #8B0000; color: white; }  /* Stranger Things */
+.serie:nth-of-type(2) { background-color: #006400; color: white; }  /* Breaking Bad */
+.serie:nth-of-type(3) { background-color: #B22222; color: white; }  /* The Mentalist */
+.serie:nth-of-type(4) { background-color: #8B4513; color: white; }  /* O Gambito da Rainha */
+.serie:nth-of-type(5) { background-color: #4B0082; color: white; }  /* Origem (From) */
+.serie:nth-of-type(6) { background-color: #800000; color: white; }  /* The Vampire Diaries */
+.serie:nth-of-type(7) { background-color: #000000; color: white; }  /* The Originals */
+.serie:nth-of-type(8) { background-color: #FF0000; color: white; }  /* La Casa de Papel */
+.serie:nth-of-type(9) { background-color: #333333; color: white; }  /* Dark */
+.serie:nth-of-type(10) { background-color: #003366; color: white; }  /* Ozark */
+.serie:nth-of-type(11) { background-color: #696969; color: white; }  /* The 100 */
+.serie:nth-of-type(12) { background-color: #B8860B; color: white; } /* Outer Banks */
+.serie:nth-of-type(13) { background-color: #483D8B; color: white; } /* Wandinha */
+
+
+
+.serie {
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.genero-container {
+    background-color: null;
+    color: white;
+    display: inline-block; /* Faz o fundo preto envolver apenas o texto */
+    padding: 5px 10px; /* Ajusta a altura e largura do fundo preto */
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 14px; /* Reduz o tamanho do texto para um ajuste melhor */
+}
+
+.streaming-container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 5px;
+}
+
+.botao-streaming {
+    display: inline-block;
+    width: 35px;  /* Defina o tamanho desejado para o botão */
+    height: 35px;
+}
+
+.botao-streaming img {
+    width: 100%;  /* Mantém a imagem proporcional ao botão */
+    height: 100%;
+    object-fit: contain;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
