@@ -127,6 +127,53 @@ h1 {
     color: white;
 }
 
+@media (max-width: 768px) {
+    .serie img {
+        width: 100%;
+        max-width: 250px; /* Define um tamanho máximo para manter proporção */
+        height: auto; /* Mantém a altura proporcional */
+        object-fit: contain; /* Garante que a imagem inteira seja exibida sem cortes */
+    }
+
+    .container {
+        width: 95%;
+    }
+
+    .serie {
+        width: 90%;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .serie img {
+        width: 100%;
+        height: auto;
+        max-width: 300px;
+        
+    }
+
+    .botao-streaming {
+        width: 100%;
+        justify-content: center;
+    }
+
+    /* Reduzindo o tamanho das logos de streaming no celular */
+    .botao-streaming img {
+        width: 35px !important; /* Força a redução do tamanho */
+        height: auto;
+        margin-right: 5px;
+    }
+
+ 
+    
+    
+    
+    
+    
+}
+
+
 
 
 
