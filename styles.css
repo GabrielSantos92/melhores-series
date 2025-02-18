@@ -6,13 +6,23 @@ body {
 }
 
 .header {
-    background-color: #8B0000; /* Cor escura para destaque */
+    background-color: #222; /* Cor escura para destaque */
     color: white;
     padding: 20px;
     text-align: center;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     margin-bottom: 20px;
+}
+
+.rodape {
+    background-color: #222;  /* Fundo escuro */
+    color: white;  /* Texto branco */
+    text-align: center;  /* Centraliza o texto */
+    padding: 10px;  /* Espaçamento interno */
+    font-size: 14px;
+    margin-top: 20px;
+    border-radius: 5px;
 }
 
 
@@ -57,12 +67,14 @@ h1 {
 .serie:nth-of-type(5) { background-color: #4B0082; color: white; }  /* Origem (From) */
 .serie:nth-of-type(6) { background-color: #800000; color: white; }  /* The Vampire Diaries */
 .serie:nth-of-type(7) { background-color: #000000; color: white; }  /* The Originals */
-.serie:nth-of-type(8) { background-color: #FF0000; color: white; }  /* La Casa de Papel */
-.serie:nth-of-type(9) { background-color: #333333; color: white; }  /* Dark */
-.serie:nth-of-type(10) { background-color: #003366; color: white; }  /* Ozark */
-.serie:nth-of-type(11) { background-color: #696969; color: white; }  /* The 100 */
-.serie:nth-of-type(12) { background-color: #B8860B; color: white; } /* Outer Banks */
-.serie:nth-of-type(13) { background-color: #483D8B; color: white; } /* Wandinha */
+.serie:nth-of-type(8) { background-color: #B8860B; color: white; } /* Outer Banks */
+.serie:nth-of-type(9) { background-color: #FF0000; color: white; }  /* La Casa de Papel */
+.serie:nth-of-type(10) { background-color: #333333; color: white; }  /* Dark */
+.serie:nth-of-type(11) { background-color: #003366; color: white; }  /* Ozark */
+.serie:nth-of-type(12) { background-color: #696969; color: white; }  /* The 100 */
+.serie:nth-of-type(13) { background-color: #708090; color: white;}  /* Vikings */
+.serie:nth-of-type(14) { background-color:  #DAA520; color: white;}  /* Prison Break */
+.serie:nth-of-type(15) { background-color: #483D8B; color: white; } /* Wandinha */
 
 
 
@@ -91,15 +103,28 @@ h1 {
 }
 
 .botao-streaming {
-    display: inline-block;
-    width: 35px;  /* Defina o tamanho desejado para o botão */
-    height: 35px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
 }
 
 .botao-streaming img {
-    width: 100%;  /* Mantém a imagem proporcional ao botão */
-    height: 100%;
+    width: 10%;  /* Mantém a imagem proporcional ao botão */
+    height: 10%;
     object-fit: contain;
+}
+
+.logo-streaming {
+    width: 35px;
+    height: 35px;
+    object-fit: contain;
+}
+
+.mensagem-streaming {
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 10px;
+    color: white;
 }
 
 
